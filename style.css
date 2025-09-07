@@ -1,0 +1,80 @@
+body {
+  font-family: "consolas"; 
+  background: #ffe6ef;
+  color: #1a4724; 
+  margin: 0;
+  padding: 0;
+}
+header {
+  text-align: center;
+  background: #ffe6ef;
+  padding: 20px;
+  border-bottom: 5px dotted #961e24;
+}
+
+h1 {
+  font-size: 2.2rem;
+  color: #961e24;
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.entry {
+  background: #ffffffcc;
+  margin: 20px auto;
+  padding: 20px;
+  border: 3px dashed #961e24;
+  width: 80%;
+  border-radius: 20px;
+  box-shadow: 5px 5px #ffc8dd;
+  transition: transform 0.2s ease;
+}
+
+.entry:hover {
+  transform: scale(1.02);
+}
+
+.entry h2 {
+  color: #961e24;
+  margin-bottom: 10px;
+}
+
+.images {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.images img {
+  max-width: 25%;
+  border-radius: 12px;
+  box-shadow: 3px 3px #e5989b;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #ffe6ef;
+  margin-top: 15px;
+  font-size: 0.9rem;
+  display: block;
+  width: 100%;
+}
+  .btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #961e24;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #c94f5d;
+}
